@@ -8,9 +8,9 @@
 
 
 ## 2. install fast api packages 
-   ``` pip install "fastapi[standard]"
-   pip install uvicorn[standard]
-   ```
+   ``` - pip install "fastapi[standard]"
+       - pip install uvicorn[standard]
+   
 
 
 ## 3. run fast api server
@@ -22,4 +22,4 @@
    - http://127.0.0.1:8000/docs
    - http://127.0.0.1:8000/redoc
 
-```bash
+
