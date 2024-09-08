@@ -4,18 +4,18 @@
    - .venv\Scripts\activate
    - python --version
    
-   configure  python interpreter version in vscode
+   - configure  python interpreter version in vscode
 
 
 ## 2. install fast api packages 
-   pip install "fastapi[standard]"
-   pip install uvicorn[standard]
+   - pip install "fastapi[standard]"
+   - pip install uvicorn[standard]
 
 ## 3. run fast api server
-   fastapi dev main.py
+   - fastapi dev main.py
    
 
 
 ## 4. rest api documentation
-   http://127.0.0.1:8000/docs
-   http://127.0.0.1:8000/redoc
+   - http://127.0.0.1:8000/docs
+   - http://127.0.0.1:8000/redoc
