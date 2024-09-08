@@ -4,7 +4,7 @@
    virtualenv -p C:\Users\dilee\AppData\Local\Programs\Python\Python39\python.exe .venv
    .venv\Scripts\activate
    python --version
-   
+```   
    - configure  python interpreter version in vscode
 
 
