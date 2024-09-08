@@ -10,6 +10,8 @@
 ## 2. install fast api packages 
    ``` pip install "fastapi[standard]"
    pip install uvicorn[standard]
+   ```
+
 
 ## 3. run fast api server
    - fastapi dev main.py
