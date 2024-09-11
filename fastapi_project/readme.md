@@ -41,3 +41,7 @@
 ## references
 - https://docs.sqlalchemy.org/en/14/orm/quickstart.html
 - https://fastapi.tiangolo.com/learn/
+
+## package
+- pip install psycopg2
+- 
