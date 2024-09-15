@@ -1,0 +1,4 @@
+fastapi[all]
+psycopg2==2.9.9
+sqlalchemy==1.4
+passlib[bcrypt]

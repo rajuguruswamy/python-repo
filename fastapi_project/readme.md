@@ -19,7 +19,7 @@
 
 ## 4. run fast api server
    ```bash
-    fastapi dev main.py
+    fastapi dev app/main.py
     or
     uvicorn app.main:app --reload
 
@@ -41,7 +41,17 @@
 ## references
 - https://docs.sqlalchemy.org/en/14/orm/quickstart.html
 - https://fastapi.tiangolo.com/learn/
+- https://docs.pydantic.dev/latest/examples/secrets/
 
-## package
-- pip install psycopg2
-- 
+## add following packages into  requirements.txt file
+fastapi[all]
+psycopg2
+sqlalchemy==1.4
+passlib[bcrypt]
+
+## run pip command to intall package 
+pip install -r requirements.txt
+
+## list package
+pip list
+
